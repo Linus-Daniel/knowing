@@ -1,0 +1,60 @@
+package com.example.ui.theme
+
+import androidx.compose.ui.graphics.Color
+
+// Warm Modern Editorial Palette (from DESIGN.md)
+val PrimaryAmber = Color(0xFF8D4B00)
+val PrimaryContainer = Color(0xFFB15F00)
+val OnPrimary = Color(0xFFFFFFFF)
+val SecondaryAmber = Color(0xFF855300)
+val SecondaryContainer = Color(0xFFFEA619)
+val OnSecondaryContainer = Color(0xFF684000)
+val TertiaryAmber = Color(0xFF984300)
+val PrimaryFixed = Color(0xFFFFDCC3)
+val OnPrimaryFixed = Color(0xFF2F1500)
+val SecondaryFixed = Color(0xFFFFDDB8)
+val OnSecondaryFixed = Color(0xFF2A1700)
+
+// Canvas Roles - Light Mode (Crisp Paper)
+val LightSurface = Color(0xFFF9F9FF)
+val LightSurfaceBase = Color(0xFFFAFAF9)
+val LightSurfaceRaised = Color(0xFFFFFFFF)
+val LightSurfaceSunken = Color(0xFFF0F3FF)
+val LightSurfaceContainer = Color(0xFFE7EEFF)
+val LightSurfaceContainerHigh = Color(0xFFDEE8FF)
+val LightSurfaceContainerHighest = Color(0xFFD8E3FB)
+val LightOnSurface = Color(0xFF111C2D)
+val LightOnSurfaceVariant = Color(0xFF554336)
+val LightOutline = Color(0xFF887364)
+val LightOutlineVariant = Color(0xFFDBC2B0)
+
+// Sepia Mode (Warm Parchment)
+val SepiaSurfaceBase = Color(0xFFFBF7EE)
+val SepiaSurfaceRaised = Color(0xFFF4EEDB)
+val SepiaSurfaceSunken = Color(0xFFEAE2CD)
+val SepiaOnSurface = Color(0xFF292524)
+val SepiaOnSurfaceVariant = Color(0xFF57534E)
+val SepiaOutline = Color(0xFFD6C8AC)
+
+// Dark Mode (Obsidian Slate)
+val DarkSurfaceBase = Color(0xFF090D16)
+val DarkSurfaceRaised = Color(0xFF131B2E)
+val DarkSurfaceSunken = Color(0xFF0F172A)
+val DarkSurfaceContainer = Color(0xFF1E293B)
+val DarkOnSurface = Color(0xFFF8FAFC)
+val DarkOnSurfaceVariant = Color(0xFF94A3B8)
+val DarkOutline = Color(0xFF334155)
+
+// OLED Mode
+val OledSurfaceBase = Color(0xFF000000)
+val OledSurfaceRaised = Color(0xFF121212)
+val OledSurfaceSunken = Color(0xFF0A0A0A)
+val OledOnSurface = Color(0xFFFFFFFF)
+val OledOnSurfaceVariant = Color(0xFFA1A1AA)
+
+// Karaoke Accents
+val ActiveSentenceHighlightLight = Color(0x33F59E0B)
+val ActiveSentenceHighlightDark = Color(0x44F59E0B)
+val ActiveSentenceBorder = Color(0xFFF59E0B)
+val WordScrubHighlight = Color(0xFFD97706)
+val GreenSynced = Color(0xFF10B981)
